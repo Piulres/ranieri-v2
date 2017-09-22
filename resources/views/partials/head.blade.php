@@ -28,7 +28,7 @@
       href="{{ url('adminlte/css') }}/select2.min.css"/>
 <link href="{{ url('adminlte/css/AdminLTE.min.css') }}" rel="stylesheet">
 <link href="{{ url('adminlte/css/custom.css') }}" rel="stylesheet">
-<link href="{{ url('adminlte/css/skins/skin-blue.min.css') }}" rel="stylesheet">
+<link href="{{ url('adminlte/css/skins/skin-green.min.css') }}" rel="stylesheet">
 <link rel="stylesheet"
       href="https://code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
 <link rel="stylesheet"
@@ -41,3 +41,22 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.4.5/jquery-ui-timepicker-addon.min.css"/>
 <link rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.5.0/css/bootstrap-datepicker.standalone.min.css"/>
+
+<style type="text/css">
+      .content, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { font-family: 'Nunito', sans-serif!important; } 
+      li a span, a { font-family: 'Nunito', sans-serif; color: #333; }  
+      .sidebar li a span, .sidebar a { font-family: 'Nunito', sans-serif; color: #fff; }
+      li a span:hover, li a span:active, a:hover, a:active { color: #008d4c; }
+      div.dt-buttons { margin: -6px 10px -6px 25px; }
+      .msg a, .msg a:hover, .msg a:active { color: #555; }
+      .main-header .logo { font-family: 'Nunito', sans-serif; }
+      .sidebar-mini.sidebar-collapse .main-header .logo>.logo-mini { color: transparent; }
+      button.dt-button, div.dt-button, a.dt-button, .btn-primary {
+      background-image: none!important;
+      background-color: #00a65a!important;
+      border: 1px solid #008d4c!important;
+      }
+      a.dt-button:hover {
+      background-color: #008d4c!important;
+      }
+</style>
